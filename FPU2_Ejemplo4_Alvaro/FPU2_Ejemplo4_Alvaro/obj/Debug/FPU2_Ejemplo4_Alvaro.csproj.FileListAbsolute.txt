@@ -1,0 +1,15 @@
+C:\Users\Lab.Comp\source\repos\FPU2_Ejemplo4_Alvaro\FPU2_Ejemplo4_Alvaro\bin\Debug\FPU2_Ejemplo4_Alvaro.exe.config
+C:\Users\Lab.Comp\source\repos\FPU2_Ejemplo4_Alvaro\FPU2_Ejemplo4_Alvaro\bin\Debug\FPU2_Ejemplo4_Alvaro.exe
+C:\Users\Lab.Comp\source\repos\FPU2_Ejemplo4_Alvaro\FPU2_Ejemplo4_Alvaro\bin\Debug\FPU2_Ejemplo4_Alvaro.pdb
+C:\Users\Lab.Comp\source\repos\FPU2_Ejemplo4_Alvaro\FPU2_Ejemplo4_Alvaro\obj\Debug\FPU2_Ejemplo4_Alvaro.csprojAssemblyReference.cache
+C:\Users\Lab.Comp\source\repos\FPU2_Ejemplo4_Alvaro\FPU2_Ejemplo4_Alvaro\obj\Debug\FPU2_Ejemplo4_Alvaro.csproj.CoreCompileInputs.cache
+C:\Users\Lab.Comp\source\repos\FPU2_Ejemplo4_Alvaro\FPU2_Ejemplo4_Alvaro\obj\Debug\FPU2_Ejemplo4_Alvaro.exe
+C:\Users\Lab.Comp\source\repos\FPU2_Ejemplo4_Alvaro\FPU2_Ejemplo4_Alvaro\obj\Debug\FPU2_Ejemplo4_Alvaro.pdb
+C:\Users\YUGEN\Desktop\Universidad\Fundamentos de Programación\FPU2_Ejemplo4_Alvaro\FPU2_Ejemplo4_Alvaro\bin\Debug\FPU2_Ejemplo4_Alvaro.exe.config
+C:\Users\YUGEN\Desktop\Universidad\Fundamentos de Programación\FPU2_Ejemplo4_Alvaro\FPU2_Ejemplo4_Alvaro\bin\Debug\FPU2_Ejemplo4_Alvaro.exe
+C:\Users\YUGEN\Desktop\Universidad\Fundamentos de Programación\FPU2_Ejemplo4_Alvaro\FPU2_Ejemplo4_Alvaro\bin\Debug\FPU2_Ejemplo4_Alvaro.pdb
+C:\Users\YUGEN\Desktop\Universidad\Fundamentos de Programación\FPU2_Ejemplo4_Alvaro\FPU2_Ejemplo4_Alvaro\obj\Debug\FPU2_Ejemplo4_Alvaro.csproj.AssemblyReference.cache
+C:\Users\YUGEN\Desktop\Universidad\Fundamentos de Programación\FPU2_Ejemplo4_Alvaro\FPU2_Ejemplo4_Alvaro\obj\Debug\FPU2_Ejemplo4_Alvaro.csproj.SuggestedBindingRedirects.cache
+C:\Users\YUGEN\Desktop\Universidad\Fundamentos de Programación\FPU2_Ejemplo4_Alvaro\FPU2_Ejemplo4_Alvaro\obj\Debug\FPU2_Ejemplo4_Alvaro.csproj.CoreCompileInputs.cache
+C:\Users\YUGEN\Desktop\Universidad\Fundamentos de Programación\FPU2_Ejemplo4_Alvaro\FPU2_Ejemplo4_Alvaro\obj\Debug\FPU2_Ejemplo4_Alvaro.exe
+C:\Users\YUGEN\Desktop\Universidad\Fundamentos de Programación\FPU2_Ejemplo4_Alvaro\FPU2_Ejemplo4_Alvaro\obj\Debug\FPU2_Ejemplo4_Alvaro.pdb
