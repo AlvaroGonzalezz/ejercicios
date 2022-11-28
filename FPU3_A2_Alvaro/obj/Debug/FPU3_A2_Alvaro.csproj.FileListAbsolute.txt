@@ -1,0 +1,8 @@
+C:\Users\YUGEN\source\repos\FPU3_A2_Alvaro\bin\Debug\FPU3_A2_Alvaro.exe.config
+C:\Users\YUGEN\source\repos\FPU3_A2_Alvaro\bin\Debug\FPU3_A2_Alvaro.exe
+C:\Users\YUGEN\source\repos\FPU3_A2_Alvaro\bin\Debug\FPU3_A2_Alvaro.pdb
+C:\Users\YUGEN\source\repos\FPU3_A2_Alvaro\obj\Debug\FPU3_A2_Alvaro.csproj.AssemblyReference.cache
+C:\Users\YUGEN\source\repos\FPU3_A2_Alvaro\obj\Debug\FPU3_A2_Alvaro.csproj.SuggestedBindingRedirects.cache
+C:\Users\YUGEN\source\repos\FPU3_A2_Alvaro\obj\Debug\FPU3_A2_Alvaro.csproj.CoreCompileInputs.cache
+C:\Users\YUGEN\source\repos\FPU3_A2_Alvaro\obj\Debug\FPU3_A2_Alvaro.exe
+C:\Users\YUGEN\source\repos\FPU3_A2_Alvaro\obj\Debug\FPU3_A2_Alvaro.pdb
