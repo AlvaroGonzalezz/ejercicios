@@ -1,0 +1,37 @@
+Anotaciones
+
+
+28/02/23
+
+Tenemos una clase y los objetos de esta pueden cambiar sus atributos, como color, ventanas, etc.
+La clase define las caracteristicas y comportamiento de un objeto
+
+Instancia es una linea de codigo que necesito que se cree un objeto. 
+Objeto
+
+
+Una clase sin instanciar un objeto no se carga en memoria RAM, hasta cuando se instancia un objeto es cuando se carga la RAM
+
+
+La secuencia de una clase es: Clase -> Instancia -> Objeto
+
+Operador de instaciacion : = new
+
+Crear una instancia:
+NombreClase nombreObjeto = new NombreClase();
+
+Es recomendable crear la clase en un archivo .cs nuevo
+
+
+Los atributos son los miembros, son aquellos elementos que le dan funcionalidad al objeto
+
+
+Miembros: 
+
+Campos: Variables
+
+Al momento de declarar variables es necesario asignarle un modificador de acceso como public, private, etc.
+
+
+
+
