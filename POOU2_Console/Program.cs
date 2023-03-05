@@ -33,6 +33,8 @@ namespace POOU2_Console
             objetoCasa1.NumCasa = "412";
             objetoCasa1.ColoniaCasa = "San Isidro (Los 2 Carnales)";
             objetoCasa1.CpCasa = "27850";
+            objetoCasa1.CiudadCasa = "San Pedro";
+            objetoCasa1.EstadoCasa = "Coahuila";
             objetoCasa1.PrecioVentaCasa = 1200000;
             objetoCasa1.MaterialCasa = "Ladrillo";
             objetoCasa1.NumHabitacionesCasa = 5;
@@ -46,10 +48,12 @@ namespace POOU2_Console
             objetoCasa2.NumCasa = "22";
             objetoCasa2.ColoniaCasa = "Centro";
             objetoCasa2.CpCasa = "27800";
-            objetoCasa1.PrecioVentaCasa = 1000000;
-            objetoCasa1.MaterialCasa = "Block";
-            objetoCasa1.NumHabitacionesCasa = 6;
-            objetoCasa1.NumBañosCasa = 1;
+            objetoCasa2.CiudadCasa = "Torreón";
+            objetoCasa2.EstadoCasa = "Coahuila";
+            objetoCasa2.PrecioVentaCasa = 1000000;
+            objetoCasa2.MaterialCasa = "Block";
+            objetoCasa2.NumHabitacionesCasa = 6;
+            objetoCasa2.NumBañosCasa = 1;
 
 
             // Objeto 3
@@ -60,6 +64,8 @@ namespace POOU2_Console
             objetoCasa3.NumCasa = "252";
             objetoCasa3.ColoniaCasa = "Barrancos";
             objetoCasa3.CpCasa = "25600";
+            objetoCasa3.CiudadCasa = "Culiacan";
+            objetoCasa3.EstadoCasa = "Sinaloa";
             objetoCasa3.PrecioVentaCasa = 20000000;
             objetoCasa3.MaterialCasa = "Ladrillo";
             objetoCasa3.NumHabitacionesCasa = 8;
@@ -73,6 +79,8 @@ namespace POOU2_Console
             objetoCasa4.NumCasa = "1082";
             objetoCasa4.ColoniaCasa = "Las Rosas";
             objetoCasa4.CpCasa = "22900";
+            objetoCasa4.CiudadCasa = "Mazatlán";
+            objetoCasa4.EstadoCasa = "Sinaloa";
             objetoCasa4.PrecioVentaCasa = 90000000;
             objetoCasa4.MaterialCasa = "Block";
             objetoCasa4.NumHabitacionesCasa = 12;
