@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,15 +9,21 @@ namespace POOU2_Console
 {
      class Casa
     {
+
+
         // Miembros de una clase 
         // Campos: Son las variables que usaremos y se crean dentro de la clase
-        public string materialCasa, nombreDuenoCasa, apellidoDuenoCasa, ubicacionCasa, metrosCuadradosCasa;
-        double precioVentaCasa;
-        byte numHabitacionesCasa, numBañosCasa, numPuertasCasa;
+        string materialCasa, nombreDuenoCasa, apellidosDuenoCasa, calleCasa, coloniaCasa, cpCasa, numCasa;
+        double precioVentaCasa, precioVentaIvaCasa;
+        byte numHabitacionesCasa, numBañosCasa;
         ConsoleColor colorCasa;
 
+
+
+        #region Propiedades
+
         // Propiedades: Cuida a una variable y guarda informacion en un campo
-      
+
         public byte NumBañosCasa
         {
             get { return numBañosCasa; }
@@ -25,9 +32,13 @@ namespace POOU2_Console
 
         // Tarea: Crear una propiedad para colorCasa y precioVentaCasa
 
-        public ConsoleColor ColorCasa
+
+         public ConsoleColor ColorCasa
         {
-            get { return colorCasa; }
+            // Es el que obtiene la variable
+            get { return colorCasa; } 
+
+            // Es el que envia lo que contiene la variable 
             set { colorCasa = value;}
         }
 
@@ -36,5 +47,96 @@ namespace POOU2_Console
             get { return precioVentaCasa; }
             set { precioVentaCasa = value; }
         }
+
+        // Propiedad para el campo de precioVentaIvaCasa
+
+        public double PrecioVentaIvaCasa
+        {
+            get { return precioVentaIvaCasa; }
+            set { precioVentaCasa = value; }
+        }
+
+
+        // Demas propiedades
+        public string NombreDuenoCasa {
+            get { return nombreDuenoCasa;}
+            set { nombreDuenoCasa= value; }
+            
+            }
+
+        public string ApellidosDuenoCasa
+        {
+            get { return apellidosDuenoCasa; }
+            set { apellidosDuenoCasa= value; }
+        }
+
+        public byte NumHabitacionesCasa
+        {
+            get { return numHabitacionesCasa; }
+            set { numHabitacionesCasa= value; }
+        }
+
+        public string MaterialCasa
+        {
+            get { return materialCasa; }
+            set { materialCasa = value; }
+        }
+
+        // Creamos una propiedad para una variable que solo sera de lectura
+
+        // public byte NumHabitaciones {
+
+        //     get { return numHabitacionesCasa; }
+        // }
+
+
+
+        // Creamos una propiedad para las variables de ubicacion
+
+        public string CalleCasa
+        {
+            get { return calleCasa; }
+            set { calleCasa = value; }
+        }
+        public string ColoniaCasa
+        {
+            get { return coloniaCasa; }
+            set { coloniaCasa = value; }
+        }
+        public string NumCasa
+        {
+            get { return numCasa; }
+            set { numCasa = value; }
+        }
+        public string CpCasa
+        {
+            get { return cpCasa; }
+            set { cpCasa = value; }
+        }
+
+        #endregion
+
+        // Miembros: Metodos
+
+        public void MostrarInfo()
+        {
+            // Cuerpo
+            Console.ForegroundColor = ColorCasa;
+            Console.WriteLine("\n\t Detalles del Dueño.");
+            Console.WriteLine("\n Nombre y apellidos del Dueño: {0} {1}.", nombreDuenoCasa, apellidosDuenoCasa);
+            Console.WriteLine("\n\t Detalles de la Casa.");
+            Console.WriteLine("\n Material de construcción: {0} -- Número de habitaciones: {1} -- Número de baños: {2}", materialCasa, numHabitacionesCasa, numBañosCasa);
+            Console.WriteLine("\n\t Ubicación de la Casa");
+            Console.WriteLine("\n Número: {0} -- Calle: {1} -- Colonia: {2} -- Código Postal: {3}", numCasa, calleCasa, coloniaCasa, cpCasa );
+            Console.WriteLine("\n\t Detalles de la Venta.");
+            Console.WriteLine("\n Costo de la Casa: ${0} pesos -- Costo de la Casa con Impuestos (IVA): ${1} pesos \n \n", precioVentaCasa, precioVentaCasa + (precioVentaCasa*0.16));
+            
+        }
+
+        
+
+           
+       
+
     }
 }

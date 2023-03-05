@@ -1,0 +1,16 @@
+C:\Users\lab2_equipo6\Documents\GSFT\ejercicios-main\POOU2_Console\bin\Debug\POOU2_Console.exe.config
+C:\Users\lab2_equipo6\Documents\GSFT\ejercicios-main\POOU2_Console\bin\Debug\POOU2_Console.exe
+C:\Users\lab2_equipo6\Documents\GSFT\ejercicios-main\POOU2_Console\bin\Debug\POOU2_Console.pdb
+C:\Users\lab2_equipo6\Documents\GSFT\ejercicios-main\POOU2_Console\obj\Debug\POOU2_Console.csproj.AssemblyReference.cache
+C:\Users\lab2_equipo6\Documents\GSFT\ejercicios-main\POOU2_Console\obj\Debug\POOU2_Console.csproj.SuggestedBindingRedirects.cache
+C:\Users\lab2_equipo6\Documents\GSFT\ejercicios-main\POOU2_Console\obj\Debug\POOU2_Console.csproj.CoreCompileInputs.cache
+C:\Users\lab2_equipo6\Documents\GSFT\ejercicios-main\POOU2_Console\obj\Debug\POOU2_Console.exe
+C:\Users\lab2_equipo6\Documents\GSFT\ejercicios-main\POOU2_Console\obj\Debug\POOU2_Console.pdb
+C:\Users\YUGEN\Desktop\Escuela\Universidad\2do Semestre\POO\POOU2_Console\obj\Debug\POOU2_Console.csproj.AssemblyReference.cache
+C:\Users\YUGEN\Desktop\Escuela\Universidad\2do Semestre\POO\POOU2_Console\obj\Debug\POOU2_Console.csproj.SuggestedBindingRedirects.cache
+C:\Users\YUGEN\Desktop\Escuela\Universidad\2do Semestre\POO\POOU2_Console\obj\Debug\POOU2_Console.csproj.CoreCompileInputs.cache
+C:\Users\YUGEN\Desktop\Escuela\Universidad\2do Semestre\POO\POOU2_Console\obj\Debug\POOU2_Console.exe
+C:\Users\YUGEN\Desktop\Escuela\Universidad\2do Semestre\POO\POOU2_Console\obj\Debug\POOU2_Console.pdb
+C:\Users\YUGEN\Desktop\Escuela\Universidad\2do Semestre\POO\POOU2_Console\bin\Debug\POOU2_Console.exe.config
+C:\Users\YUGEN\Desktop\Escuela\Universidad\2do Semestre\POO\POOU2_Console\bin\Debug\POOU2_Console.exe
+C:\Users\YUGEN\Desktop\Escuela\Universidad\2do Semestre\POO\POOU2_Console\bin\Debug\POOU2_Console.pdb
