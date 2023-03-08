@@ -12,10 +12,11 @@ namespace POOU2_Console
         static void Main(string[] args)
         {
             // Crear una instancia
-            Casa objetoCasa1 = new Casa();
-            Casa objetoCasa2 = new Casa();
-            Casa objetoCasa3 = new Casa();
-            Casa objetoCasa4 = new Casa();
+            Casa objetoCasa1 = new Casa("Alvaro", "González", ConsoleColor.Red, 20000);
+            Casa objetoCasa2 = new Casa("Zerafin", "Zambada", ConsoleColor.Blue, 30000);
+            Casa objetoCasa3 = new Casa("Joaquin", "Loera", ConsoleColor.Cyan, 40000);
+            Casa objetoCasa4 = new Casa("Andrés", "Obrador", ConsoleColor.White, 50000);
+            Casa objetoCasa5 = new Casa("2141");
 
             // Usamos el objeto creado
             //objetoCasa1.nombreDuenoCasa = "Alvaro";
@@ -26,9 +27,9 @@ namespace POOU2_Console
             // Usamos las demas propiedades (presencial)
 
             // Objeto 1
-            objetoCasa1.NombreDuenoCasa = "Alvaro";
-            objetoCasa1.ApellidosDuenoCasa = "Sanchez González";
-            objetoCasa1.ColorCasa = ConsoleColor.Green;
+          //  objetoCasa1.NombreDuenoCasa = "Alvaro";
+          //  objetoCasa1.ApellidosDuenoCasa = "Sanchez González";
+         //   objetoCasa1.ColorCasa = ConsoleColor.Green;
             objetoCasa1.CalleCasa = "Solidaridad";
             objetoCasa1.NumCasa = "412";
             objetoCasa1.ColoniaCasa = "San Isidro (Los 2 Carnales)";
@@ -41,9 +42,9 @@ namespace POOU2_Console
             objetoCasa1.NumBañosCasa = 2;
 
             // Objeto 2
-            objetoCasa2.NombreDuenoCasa = "Sergio";
-            objetoCasa2.ApellidosDuenoCasa = "Prado Lozano";
-            objetoCasa2.ColorCasa = ConsoleColor.Red;
+          //  objetoCasa2.NombreDuenoCasa = "Sergio";
+          //  objetoCasa2.ApellidosDuenoCasa = "Prado Lozano";
+        //    objetoCasa2.ColorCasa = ConsoleColor.Red;
             objetoCasa2.CalleCasa = "9 de Mayo";
             objetoCasa2.NumCasa = "22";
             objetoCasa2.ColoniaCasa = "Centro";
@@ -57,9 +58,9 @@ namespace POOU2_Console
 
 
             // Objeto 3
-            objetoCasa3.NombreDuenoCasa = "Joaquin";
-            objetoCasa3.ApellidosDuenoCasa = "Guzman Loera";
-            objetoCasa3.ColorCasa = ConsoleColor.Blue;
+          //  objetoCasa3.NombreDuenoCasa = "Joaquin";
+         //   objetoCasa3.ApellidosDuenoCasa = "Guzman Loera";
+         //  objetoCasa3.ColorCasa = ConsoleColor.Blue;
             objetoCasa3.CalleCasa = "Independencia";
             objetoCasa3.NumCasa = "252";
             objetoCasa3.ColoniaCasa = "Barrancos";
@@ -72,9 +73,9 @@ namespace POOU2_Console
             objetoCasa3.NumBañosCasa = 3;
 
             // Objeto 4
-            objetoCasa4.NombreDuenoCasa = "Ismael";
-            objetoCasa4.ApellidosDuenoCasa = "Zambada";
-            objetoCasa4.ColorCasa = ConsoleColor.Yellow;
+         //   objetoCasa4.NombreDuenoCasa = "Ismael";
+         //  objetoCasa4.ApellidosDuenoCasa = "Zambada";
+         //   objetoCasa4.ColorCasa = ConsoleColor.Yellow;
             objetoCasa4.CalleCasa = "Miguel Gallardo";
             objetoCasa4.NumCasa = "1082";
             objetoCasa4.ColoniaCasa = "Las Rosas";

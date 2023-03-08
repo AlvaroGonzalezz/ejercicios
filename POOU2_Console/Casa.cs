@@ -10,17 +10,17 @@ namespace POOU2_Console
      class Casa
     {
 
-
+        #region MiembrosCampos
         // Miembros de una clase 
         // Campos: Son las variables que usaremos y se crean dentro de la clase
         string materialCasa, nombreDuenoCasa, apellidosDuenoCasa, calleCasa, coloniaCasa, cpCasa, numCasa, ciudadCasa, estadoCasa;
-        double precioVentaCasa, precioVentaIvaCasa;
+        double precioVentaCasa, engancheCasa;
         byte numHabitacionesCasa, numBañosCasa;
         ConsoleColor colorCasa;
 
+        #endregion
 
-
-        #region Propiedades
+        #region MiembrosPropiedades
 
         // Propiedades: Cuida a una variable y guarda informacion en un campo
 
@@ -94,6 +94,12 @@ namespace POOU2_Console
             set { estadoCasa = value; }
         }
 
+        public double EngancheCasa
+        {
+            get { return engancheCasa; }
+            set { engancheCasa = value;}
+        }
+
         // Creamos una propiedad para una variable que solo sera de lectura
 
         // public byte NumHabitaciones {
@@ -128,6 +134,28 @@ namespace POOU2_Console
 
         #endregion
 
+
+        #region MiembrosConstructores
+
+        public Casa (string nombreDuenoCasa, string apellidosDuenoCasa, ConsoleColor colorCasa, double engancheCasa)
+        {
+            this.nombreDuenoCasa= nombreDuenoCasa;
+            this.apellidosDuenoCasa = apellidosDuenoCasa;
+            this.colorCasa= colorCasa;
+            this.engancheCasa= engancheCasa;
+
+        }
+
+
+        public Casa(string numCasa)
+        {
+            this.numCasa= numCasa;
+        }
+
+        #endregion
+
+
+        #region MiembrosMetodos
         // Miembros: Metodos
 
         public void MostrarInfo()
@@ -141,13 +169,13 @@ namespace POOU2_Console
             Console.WriteLine("\n\t Ubicación de la Casa");
             Console.WriteLine("\n Número: {0} -- Calle: {1} -- Colonia: {2} -- Código Postal: {3} -- Ciudad: {4} -- Estado: {5}", NumCasa, CalleCasa, ColoniaCasa, CpCasa, CiudadCasa, EstadoCasa );
             Console.WriteLine("\n\t Detalles de la Venta.");
-            Console.WriteLine("\n Costo de la Casa: ${0} pesos -- Impuesto (IVA): ${1} -- Costo Total de la Casa: ${2} pesos \n \n", PrecioVentaCasa, PrecioVentaCasa * 0.16, PrecioVentaCasa + (PrecioVentaCasa*0.16)); // la segunda variable hace referencia al precio con impuestos
+            Console.WriteLine("\n Costo de la Casa: ${0} pesos -- Impuesto (IVA): ${1} -- Costo Total de la Casa: ${2} pesos -- Enganche: ${3} pesos \n \n", PrecioVentaCasa, PrecioVentaCasa * 0.16, PrecioVentaCasa + (PrecioVentaCasa*0.16), EngancheCasa); // la segunda variable hace referencia al precio con impuestos
         }
 
-        
 
-           
-       
+        #endregion
+
+
 
     }
 }
