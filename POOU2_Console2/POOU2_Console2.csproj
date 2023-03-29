@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0D76A935-20AC-4B14-98D9-F9219BA3A76D}</ProjectGuid>
+    <ProjectGuid>{820D2C39-C40E-4295-9A86-934042FED762}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>POOU2_Console2</RootNamespace>
     <AssemblyName>POOU2_Console2</AssemblyName>
@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alumno.cs" />
+    <Compile Include="Consecutivo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

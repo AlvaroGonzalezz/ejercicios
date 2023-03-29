@@ -1,0 +1,16 @@
+C:\Users\lab2_equipo6\source\repos\POOU2_Console2\bin\Debug\POOU2_Console2.exe.config
+C:\Users\lab2_equipo6\source\repos\POOU2_Console2\bin\Debug\POOU2_Console2.exe
+C:\Users\lab2_equipo6\source\repos\POOU2_Console2\bin\Debug\POOU2_Console2.pdb
+C:\Users\lab2_equipo6\source\repos\POOU2_Console2\obj\Debug\POOU2_Console2.csproj.AssemblyReference.cache
+C:\Users\lab2_equipo6\source\repos\POOU2_Console2\obj\Debug\POOU2_Console2.csproj.SuggestedBindingRedirects.cache
+C:\Users\lab2_equipo6\source\repos\POOU2_Console2\obj\Debug\POOU2_Console2.csproj.CoreCompileInputs.cache
+C:\Users\lab2_equipo6\source\repos\POOU2_Console2\obj\Debug\POOU2_Console2.exe
+C:\Users\lab2_equipo6\source\repos\POOU2_Console2\obj\Debug\POOU2_Console2.pdb
+C:\Users\YUGEN\Downloads\POOU2_Console2\bin\Debug\POOU2_Console2.exe.config
+C:\Users\YUGEN\Downloads\POOU2_Console2\bin\Debug\POOU2_Console2.exe
+C:\Users\YUGEN\Downloads\POOU2_Console2\bin\Debug\POOU2_Console2.pdb
+C:\Users\YUGEN\Downloads\POOU2_Console2\obj\Debug\POOU2_Console2.csproj.AssemblyReference.cache
+C:\Users\YUGEN\Downloads\POOU2_Console2\obj\Debug\POOU2_Console2.csproj.SuggestedBindingRedirects.cache
+C:\Users\YUGEN\Downloads\POOU2_Console2\obj\Debug\POOU2_Console2.csproj.CoreCompileInputs.cache
+C:\Users\YUGEN\Downloads\POOU2_Console2\obj\Debug\POOU2_Console2.exe
+C:\Users\YUGEN\Downloads\POOU2_Console2\obj\Debug\POOU2_Console2.pdb
