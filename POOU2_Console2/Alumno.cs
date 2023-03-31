@@ -61,7 +61,12 @@ namespace POOU2_Console2
 
            public Alumno() // constructor vacio
         {
+            // Personalizacion
+            Console.Clear();
 
+            Console.BackgroundColor= ConsoleColor.Yellow;
+            Console.ForegroundColor= ConsoleColor.Black;
+            Console.Clear();
             
             // Este constructor sera para pedir los valores de inicio
 
@@ -83,15 +88,41 @@ namespace POOU2_Console2
             //Obtenemos solamente el año
             this.añoInscripcion = fechaInscripcion.Substring(8);
 
-            //Generamos la matricula
-            this.matriculaAlumno = añoInscripcion + "" + numeroTec + "" + Consecutivo.contador;
+            //Generamos el consecutivo
             Consecutivo.contador = Consecutivo.contador + 1;
+
 
 
             // Inicializamos el semestre como es de nuevo ingreso valdrá 1
 
             this.semestreAlumno = "1";
-            
+
+            // Agregamos los ceros a la izquierda
+
+            string folio = Consecutivo.contador.ToString();
+            if (folio.Length == 1){
+
+                folio = "000" + folio;
+
+            } else if (folio.Length == 2)
+            {
+                folio = "00" + folio;
+            } else if (folio.Length == 3)
+            {
+                folio = "0" + folio;
+            } else if(folio.Length == 4)
+            {
+                folio= folio;
+            }
+
+
+
+
+            // Concatenamos la matricula
+
+            this.matriculaAlumno = añoInscripcion + "" + numeroTec + "" + folio;
+
+
         }
 
         #endregion
@@ -157,13 +188,20 @@ namespace POOU2_Console2
 
         public void MostrarInfo()
         {
-            
+
+            // Personalizamos la consola
+
+            Console.BackgroundColor= ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.White;
+            //Console.Clear();
+
 
             Console.WriteLine("\t \t Sistema-Tec");
-            Console.WriteLine("Matricula: {0} \n Nombre: {1} {2} {3}", matriculaAlumno, nombreAlumno, primerApellidoAlumno, segundoApellidoAlumno);
+            Console.WriteLine("\n Nombre: {0} {1} {2}", nombreAlumno, primerApellidoAlumno, segundoApellidoAlumno);
             Console.WriteLine("La fecha de ingreso es: {0}", fechaInscripcion);
             Console.WriteLine("Matricula: {0}", matriculaAlumno);
             Console.WriteLine("Semestre: {0}", semestreAlumno);
+            Console.WriteLine("Carrera: {0}", nombreCarreraAlumno);
             
         }
 

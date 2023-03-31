@@ -9,7 +9,7 @@ namespace POOU2_Console2
     static class Consecutivo
     {
 
-        public static int contador = 1;
+        public static int contador = 0;
 
     }
 }

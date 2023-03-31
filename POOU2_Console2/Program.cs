@@ -18,7 +18,6 @@ namespace POOU2_Console2
             // Objetos 
             Alumno alumno1 = new Alumno(); // y aqui colocariamos las variables
             Alumno alumno2 = new Alumno();
-
             // Pedirle la info al usuario
 
             //Console.WriteLine("Ingresa la matricula: ");
